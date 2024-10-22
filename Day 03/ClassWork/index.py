@@ -1,0 +1,12 @@
+name="giorgi"
+surname="gloveli"
+nam1=14
+nam2=164
+nam3=5.35
+nam4=8.43
+print(name)
+print(surname)
+print(nam1)
+print(nam2)
+print(nam3)
+print(nam4)
