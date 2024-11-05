@@ -67,7 +67,7 @@ print("Hello World")
 x = 10
 y = "5"
 print(x + y)
-def my_function():
+my_function()
 print("Missing indentation in function")
 var = 10
 print(var)
@@ -82,6 +82,5 @@ print(True)
 #if True
 print("No colon in if statement")
 (a, b)
-return a + b
-variable
+a + b
 print("Empty statement after variable declaration")
