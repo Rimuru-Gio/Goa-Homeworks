@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+    <form>
+        <label for="first-name">შეიყვანეთ სახელი</label>
+        <input type="text" name="first-name" id="first-name" placeholder="შეიყვანეთ თქვენი სახელი" minlength="4">
+        <br>
+        <hr>
+        <label for="last-name">შეიყვანეთ გვარი</label>
+        <input type="text" name="first-name" id="last-name" placeholder="შეიყვანეთ თქვენი გვარი" minlength="6">
+        <br>
+        <hr>
+        <label for="phone">შეიყვანეთ ტელეფონის ნომერი</label>
+        <input type="text" name="phone" id="phone" placeholder="შეიყვანეთ ტელეფონის ნომერი" minlength="9">
+        <br>
+        <hr>
+        <div>
+            <label for="gender">გენდერი:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">კაცი</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">ქალი</label><br>
+        </div>
+        <br>
+        <hr>
+        <label for="age-group">მიუთითეთ თქვენი ასაკი</label>
+        <select name="age-group" id="age-group">
+            <option value="Under-15">15 წლამდე</option>
+            <option value="15-18">15-18</option>
+            <option value="18+">18 წელს ზევით</option>
+        </select>
+        <br>
+        <hr>
+        <button type="submit"> გაგზავნა </button>
+        
+
+    </form>
+</body>
+</html>

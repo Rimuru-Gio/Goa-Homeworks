@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+
+    <h1>სარეგისტრაციო ფორმა</h1>
+
+    <form>
+        
+        <!-- სახელი -->
+        <div>
+            <label for="first-name">სახელი:</label>
+            <input type="text" id="first-name" name="first-name" required placeholder="შეიყვანეთ სახელი" minlength="2">
+        </div>
+        <br>
+
+        <!-- გვარი -->
+        <div>
+            <label for="last-name">გვარი:</label>
+            <input type="text" id="last-name" name="last-name" required placeholder="შეიყვანეთ გვარი" minlength="2">
+        </div>
+        <br>
+
+        <!-- ემაილი -->
+        <div>
+            <label for="email">ემაილი:</label>
+            <input type="email" id="email" name="email" placeholder="შეიყვანეთ ემაილი">
+        </div>
+        <br>
+
+        <!-- პაროლი -->
+        <div>
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი" minlength="6">
+        </div>
+        <br>
+
+        <!-- პაროლის გამეორება -->
+        <div>
+            <label for="confirm-password">გაიმეორეთ პაროლი:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="გაიმეორეთ პაროლი" minlength="6">
+        </div>
+        <br>
+
+        <!-- ტელეფონის ნომერი -->
+        <div>
+            <label for="phone">ტელეფონის ნომერი:</label>
+            <input type="tel" id="phone" name="phone" placeholder="შეიყვანეთ ტელეფონის ნომერი" pattern="^\+995\d{9}$" title="უნდა იწყებოდეს +995 და უნდა შედგებოდეს 9 ციფრისგან">
+        </div>
+        <br>
+
+        <!-- გენდერი -->
+        <div>
+            <label for="gender">გენდერი:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">კაცი</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">ქალი</label><br>
+        </div>
+        <br>
+
+        <div>
+            <button type="submit">რეგისტრაცია</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
