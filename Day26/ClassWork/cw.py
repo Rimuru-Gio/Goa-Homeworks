@@ -1,24 +1,27 @@
-#შექმენით ერთი სია რომელშიც შეიტანთ სახელებს შემდეგ შექმენით მეორე სია რომელშიც იქნება ისევ სხვადასხვა 
-#სახელები გააერთიანეთ ეს ორი სია ჩაამატეთ 5 ინდექსზე ახალი სახელი დაითვალეთ გაერთიანებული 
-#სიის სიგრძე და დაითვალეთ თქვენი სახელი რამდენჯერ გვხვდება ამ სიაში, ასევე დაბეჭდეთ რომელ ინდექსზე დგას თქვენი სახელი
-name1 = ["ნიკა", "გიორგი", "დავით", "ლევან"]
+
+lista_1 = ["ნიკა", "გიორგი", "დავით", "ლევან"]
 
 
-name2 = ["ანა", "მარიამი", "თამარი", "გიორგი"]
+lista_2 = ["ანა", "მარიამი", "თამარი", "გიორგი"]
 
 
-
-name1.extend(name2)
-
-name1.insert(5, "კახი")
+combined_list = lista_1 + lista_2
 
 
-list_length = len(name1)
+combined_list.insert(5, "კახი")
 
-giorgi = name1.count("გიორგი")
-giorgi1= name1.index("გიორგი")
-print(name1)
-print(giorgi1)
-print(giorgi)
-print(list_length)
+
+list_length = len(combined_list)
+
+
+name_to_count = "გიორგი"
+name_count = combined_list.count(name_to_count)
+
+name_index = combined_list.index(name_to_count)
+
+
+print("გაერთიანებული სია:", combined_list)
+print("სიის სიგრძე:", list_length)
+print({name_to_count})
+print({name_to_count})
 
