@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS სტილის ტიპები</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS */
+        .internal-style {
+            font-family: Arial, sans-serif;
+            color: green;
+            background-color: #f0f8ff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <p style="font-size: 18px; color: red; font-weight: bold; background-color: #ffe4e1; ">
+        ეს ტექსტი არის Inline სტილით გაფორმებული. Inline სტილი პირდაპირ HTML ელემენტში იწერება "style" ატრიბუტით და უმეტესად გამოიყენება, როცა კონკრეტული ელემენტის სტილის სწრაფი ცვლილებაა საჭირო.
+    </p>
+    <p class="internal-style">
+        ეს ტექსტი არის Internal სტილით გაფორმებული. Internal სტილი იწერება ` style` ტეგში, რომელიც მოთავსებულია HTML-ის `head სექციაში.
+    <p class="external-style">
+        ეს ტექსტი არის External სტილით გაფორმებული. External სტილი განთავსებულია ცალკე `.css` ფაილში.
+    </p>
+</body>
+</html>
