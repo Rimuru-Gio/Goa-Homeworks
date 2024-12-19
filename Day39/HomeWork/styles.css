@@ -1,0 +1,10 @@
+.idk {
+    text-decoration: underline green;
+    color: black;
+}
+.H {
+    text-decoration: dotted overline underline red;
+}
+.G {
+text-decoration: dashed line-through blue;
+}

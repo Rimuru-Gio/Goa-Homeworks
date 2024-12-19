@@ -1,0 +1,24 @@
+.Under {
+    text-decoration: line-through red;
+    color: aqua;
+}
+.Idk {
+    text-decoration: underline hotpink;
+    color: blue;
+}
+.huh {
+    text-decoration: overline green;
+    color: brown;
+}
+.mhm {
+    text-decoration: overline underline line-through green;
+    color: pink;
+}
+.a {
+    text-decoration: overline underline violet;
+    color: black;
+}
+.v {
+    text-decoration: line-through overline blueviolet;
+    color: aquamarine;
+}
