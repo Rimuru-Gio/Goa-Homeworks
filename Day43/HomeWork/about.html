@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>სარეგისტრაციო ფორმა</title>
+  <style>
+    /* ფორმის სტილი */
+    .registration-form {
+      background-color: #4caf50; /* მწვანე ფონი */
+      border: 2px solid #ccc; /* გარე საზღვარი */
+      border-radius: 15px; /* მომრგვალებული კუთხეები */
+      padding: 20px;
+      width: 300px;
+      margin: 50px auto; /* ცენტრალიზება */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* მცირე ჩრდილი */
+      font-family: Arial, sans-serif;
+      color: white; /* ტექსტის ფერი */
+    }
+
+    /* input ველების სტილი */
+    .registration-form input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px; /* მომრგვალებული კუთხეები */
+      font-size: 16px;
+    }
+
+    /* ღილაკის სტილი */
+    .registration-form button {
+      background-color: white;
+      color: #4caf50;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      width: 100%;
+    }
+
+    /* ღილაკზე მაუსის ეფექტი */
+    .registration-form button:hover {
+      background-color: #4caf50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="registration-form">
+    <h2>რეგისტრაცია</h2>
+    <form>
+      <label for="username">სახელი:</label><br>
+      <input type="text" id="username" placeholder="შეიყვანეთ თქვენი სახელი" required><br>
+
+      <label for="email">ელ.ფოსტა:</label><br>
+      <input type="email" id="email" placeholder="შეიყვანეთ თქვენი ელ.ფოსტა" required><br>
+
+      <label for="password">პაროლი:</label><br>
+      <input type="password" id="password" placeholder="შეიყვანეთ პაროლი" required><br>
+
+      <button type="submit">დარეგისტრირება</button>
+    </form>
+  </div>
+</body>
+</html>
