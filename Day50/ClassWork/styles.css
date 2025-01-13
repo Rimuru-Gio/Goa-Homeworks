@@ -1,0 +1,15 @@
+body {
+    height: 300vh;
+}
+
+
+.satauri{
+    position: sticky;
+    top: 200px;
+    align-items: left;
+}
+.fotoebi  {
+    position: relative;
+    left: 1000px;
+    display: block;
+}
