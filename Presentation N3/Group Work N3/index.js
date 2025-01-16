@@ -77,7 +77,7 @@ function checkWinner() {
     ];
 
     let winner = '';
-
+    let gameEnded = false 
     win.forEach(combination => {
         const [x, y, z] = combination;
         if (board[x] && board[x] === board[y] && board[x] === board[z]) {
