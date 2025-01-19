@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეცეპტების საიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffab91;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .image-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    .image-container img {
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+    }
+        footer {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>გემრიელი რეცეპტები</h1>
+    </header>
+    <nav>
+        <a href="pastry.html">ცომეული</a>
+        <a href="salads.html">სალათები</a>
+        <a href="desserts.html">დესერტები</a>
+    </nav>
+    <main>
+        <h2>კეთილი იყოს თქვენი მობრძანება</h2>
+        <p>მთავარ გვერდზე ნახავთ მოკლე აღწერას ჩვენი საიტის შესახებ. აქ თავმოყრილია სხვადასხვა სახის რეცეპტები, რომლებიც გაგიადვილებთ კერძების მომზადებას. შეარჩიეთ კატეგორია და აღმოაჩინეთ გემრიელი კერძები!</p>
+        <div class="image-container">
+            <img src="1.png" alt="ცომეულის ფოტო">
+            <img src="2.png" alt="სალათის ფოტო">
+            <img src="3.png" alt="დესერტის ფოტო">
+            <img src="4.png" alt="ცომეულის ფოტო 2">
+            <img src="5.png" alt="სალათის ფოტო 2">
+            <img src="6.png" alt="დესერტის ფოტო 2">
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 გემრიელი რეცეპტები
+    </footer>
+</body>
+</html>
+
