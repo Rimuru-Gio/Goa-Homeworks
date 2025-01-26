@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>დივი მულტიტასკინგი</title>
+  <style>
+    .animated-div {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      transition: all 2s ease-in-out;
+      transform-origin: center;
+    }
+
+    .animated-div:hover {
+      animation: rotateGrowChangeColor 4s ease-in-out forwards;
+    }
+
+    @keyframes rotateGrowChangeColor {
+      0% {
+        transform: rotate(0deg) scale(1);
+        background-color: blue;
+      }
+      50% {
+        transform: rotate(1440deg) scale(1.5);
+        background-color: red;
+      }
+      100% {
+        transform: rotate(2880deg) scale(2);
+        background-color: green;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-div"></div>
+</body>
+</html>
