@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მათემატიკური ოპერაციები</title>
+</head>
+<body>
+
+    <label for="number1">პირველი რიცხვი:</label>
+    <input type="number" id="number1" placeholder="შეიყვანეთ პირველი რიცხვი"><br><br>
+
+    <label for="number2">მეორე რიცხვი:</label>
+    <input type="number" id="number2" placeholder="შეიყვანეთ მეორე რიცხვი"><br><br>
+
+    <button onclick="calculate()">გამოასრულე ოპერაციები</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        function calculate() {
+            var num1 = parseFloat(document.getElementById("number1").value);
+            var num2 = parseFloat(document.getElementById("number2").value);
+
+            // მათემატიკური ოპერაციები
+            var addition = num1 + num2;
+            var subtraction = num1 - num2;
+
+            // შედეგების ჩვენება
+            var resultText = `დამატება: ${addition}<br>
+        გამოკლება: ${subtraction}`;
+
+            document.getElementById("result").innerHTML = resultText;
+        }
+    </script>
+
+</body>
+</html>

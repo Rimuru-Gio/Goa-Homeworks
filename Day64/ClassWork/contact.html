@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="name">თქვენი სახელი:</label>
+    <input type="text" id="name" placeholder="შეიყვანეთ თქვენი სახელი"><br><br>
+    
+    <button onclick="greet()">მისალმება</button>
+
+    <script>
+        function greet() {
+            var name = document.getElementById("name").value;
+            alert("Welcome " + name);
+        }
+    </script>
+
+</body>
+</html>
+

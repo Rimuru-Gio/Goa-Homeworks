@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="firstName">თქვენი სახელი:</label>
+    <input type="text" id="firstName" placeholder="შეიყვანეთ თქვენი სახელი"><br><br>
+
+    <label for="lastName">თქვენი გვარი:</label>
+    <input type="text" id="lastName" placeholder="შეიყვანეთ თქვენი გვარი"><br><br>
+
+    <button onclick="greet()">მიესალმე</button>
+
+    <script>
+        function greet() {
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            alert("გამარჯობა, " + firstName + " " + lastName);
+        }
+    </script>
+
+</body>
+</html>
