@@ -120,6 +120,25 @@ nav ul li a:hover {
     box-shadow: none;
     text-decoration: none; 
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff4081;
+    color: white;
+    padding: 15px 40px;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left p, .footer-right p {
+    font-size: 1rem;
+}
 
 @media (max-width: 600px) {
     header {
