@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: white;
+}
+
+.drum-kit {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.drum {
+    padding: 20px 40px;
+    background-color: #1abc9c;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.drum:hover {
+    background-color: #16a085;
+}
