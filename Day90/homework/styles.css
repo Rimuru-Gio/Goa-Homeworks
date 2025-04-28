@@ -1,0 +1,16 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #cart {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #999;
+    padding: 15px;
+  }
+  
